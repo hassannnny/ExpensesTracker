@@ -1,0 +1,39 @@
+<NavBarWTitle></NavBarWTitle>
+
+<h1 style="text-align:center">Expenses Tracker</h1>
+
+<table id = "add_expenses">
+  <tr>
+    <th>Date</th>
+    <th>Item</th>
+    <th>Catagory</th>
+    <th>Amount</th>
+  </tr>
+  <tr>
+    <td><input type = "text" placeholder="Add Date" ngModel = "date"/></td>
+    <td><input type = "text" placeholder="Add Item" ngModel = "item" /></td>
+    <td><input type = "text" placeholder="Add Catagory" ngModel = "catagory" /></td>
+    <td><input type = "text" placeholder="Add Amount" ngModel = "amount" /></td>
+    <td><button ng-click = 'push()'>Add</button></td>
+    <td><button>Remove</button></td>
+  </tr>
+</table>
+ 
+<br>
+<br>
+<br>
+<br>
+ 
+ 
+<table id = "display-expenses">
+  <tr>
+    <th>Date</th>
+    <th>Item</th>
+    <th>Catagory</th>
+    <th>Amount</th>
+  </tr>
+  <tr>
+  </tr>
+</table>
+
+

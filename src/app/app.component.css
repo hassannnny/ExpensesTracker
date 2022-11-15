@@ -1,0 +1,25 @@
+
+#add_expenses {
+
+    width: 70%;
+
+   padding-left: 450px;
+
+}
+
+
+#display-expenses {
+
+    width: 79%;
+    padding-left: 470px;
+}
+
+
+html {
+
+    background: url(money.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
